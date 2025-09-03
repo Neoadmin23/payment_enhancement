@@ -7,11 +7,11 @@ App for Payment Entry Enhancement In Which Payment Receive and Pay to Customer, 
 Installation.
 
   ```sh
-  bench get-app https://github.com/nasir97177/logistic_management.git
+  bench get-app https://github.com/nasir97177/payment_enhancement.git
   ```
 
   ```sh
-  bench --site site1.local install-app logistic_management
+  bench --site site1.local install-app payment_enhancement
   ```
 
 #### License
