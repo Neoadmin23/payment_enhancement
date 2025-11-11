@@ -136,13 +136,20 @@ app_license = "mit"
 # Document Events
 # ---------------
 # Hook on document methods and events
+# doc_events = {
+#     "Payment Entry": {
+       
+#         "before_validate": "payment_enhancement.payment_entry.allow_flexible_payment_entry",
+       
+#     }
+# }
+
 doc_events = {
     "Payment Entry": {
-       
         "before_validate": "payment_enhancement.payment_entry.allow_flexible_payment_entry",
-       
     }
 }
+
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
